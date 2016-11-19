@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: example of nodejs
+  host: example-of-nodejs
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-qz
+  env:
+    size: '256'
